@@ -1,89 +1,128 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+Claro! 🚀 Organizei **tudo** conforme você pediu em um único **README.md profissional**, pronto para copiar/colar.
+Como eu **não consigo gerar prints reais do app**, deixei **marcadores de imagens** para você substituir depois pelos seus próprios prints/vídeos.
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+---
 
-## ✨ O que é Vibe Coding
+# 💬 Quick Coin Chat
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+### 📱 App de Finanças Pessoais Conversacional
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+## 🛠️ Link do App
 
-## 🎯 Desafio
+👉 [https://quick-coin-chat.lovable.app/auth](https://quick-coin-chat.lovable.app/auth)
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+---
 
-## 🪄 Etapas do Desafio
+## 📖 Resumo do App
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+O **Quick Coin Chat** é um aplicativo de **finanças pessoais com interface conversacional**, onde os usuários podem controlar seus gastos e metas de forma natural — como se estivessem conversando com um assistente financeiro.
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+Os principais diferenciais são:
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+* Registro de gastos usando linguagem natural
+* Classificação automática das transações
+* Organização de metas financeiras
+* Relatórios simples e intuitivos
+* Interface conversa-style, sem formulários complexos
+
+O objetivo é tornar o controle financeiro **acessível até para pessoas que nunca usaram um app desse tipo**.
+
+---
+
+## 📌 Prompt Final (PRD)
 
 ```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+Título: Aplicativo de Organização de Finanças Pessoais Conversacional
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+Problema:
+Usuários iniciantes desistem de controlar finanças porque apps exigem entradas manuais complexas e pouco personalizados.
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+Objetivo:
+Reduzir em 70% o esforço de registro de gastos, oferecendo uma experiência conversacional simples, intuitiva e acessível para qualquer perfil de usuário.
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+Público-Alvo / Personas:
+- Ana, 25 anos, estudante, quer aprender a guardar dinheiro.
+- Carlos, 35 anos, trabalhador CLT, quer controlar gastos sem planilhas.
+- Maria, 55 anos, autônoma, busca praticidade sem precisar entender termos técnicos.
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+Funcionalidades-Chave (MVP):
+- Must Have: Registro de gastos via chat, relatórios básicos.
+- Should Have: Metas financeiras simples.
+- Could Have: Dicas personalizadas.
+- Won’t Have (MVP): Integração bancária.
+
+Fluxos do Usuário:
+1. Registrar gasto → App confirma e classifica.
+2. Definir meta → Barra de progresso mostra evolução.
+3. Consultar relatório → Gráfico simples + destaques.
+
+Requisitos Técnicos:
+- NLP para interpretar mensagens.
+- Algoritmo de categorização automática.
+- Banco de dados para transações e metas.
+- Motor de regras para dicas.
+- Interface estilo mensageiro.
+
+Requisitos Não Funcionais:
+- Design intuitivo: interface clara, com ícones e textos simples, acessível para qualquer usuário.
+- Facilidade de uso: fluxo de interação reduzido a poucos cliques ou mensagens.
+- Acessibilidade: contraste adequado, fontes legíveis e suporte a leitores de tela.
+- Segurança: dados criptografados.
+- Performance: resposta em até 2 segundos.
+- Escalabilidade: suportar 1.000 usuários simultâneos.
+
+Critérios de Sucesso:
+- 70% dos usuários registram 5 gastos na primeira semana.
+- 50% definem metas financeiras.
+- Taxa de acerto de categorização >80%.
+- Feedback positivo sobre facilidade de uso e clareza da interface.
+
+Validação:
+- Teste com 10–20 usuários em protótipo.
+- Métricas: tempo médio de registro, clareza dos relatórios, percepção de facilidade.
+
+Roadmap Futuro:
+- MVP → Beta com metas → Versão 1.0 com dicas → Integração bancária.
 ```
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+---
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+## 🤔 Reflexão sobre o Processo
 
-### 2. Explorando o Lovable na Prática
+### ✅ O que funcionou bem
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+* A **experiência conversacional** simplificou o registro de gastos e deixou o fluxo mais natural.
+* O **PRD ajudou a organizar ideias** e estruturar o MVP de forma clara.
+* A interação com a IA acelerou muito a documentação do projeto.
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+---
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+### ⚠️ O que não funcionou como esperado
 
-### 3. Entregando o Desafio na DIO
+* A **categorização automática** ainda precisa de ajustes para evitar algumas classificações erradas.
+* Algumas interações podem ser **mais intuitivas para usuários que nunca usaram apps de finanças**.
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+---
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+### 🧠 O que aprendi sobre conversar com IAs
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+* **Detalhar bem o prompt** ajuda a receber respostas mais úteis e organizadas.
+* A interação é mais produtiva quando o objetivo está **muito claro e específico**.
+* Conversar com IA pode **acelerar prototipação de ideias e documentação** de projetos complexos.
 
-## 💬 Conclusão
+---
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+## 🔚 Conclusão
+
+O **Quick Coin Chat** é uma proposta inovadora de finanças pessoais usando linguagem natural em vez de formulários tradicionais.
+O uso de IA transformou o processo de documentação e desenvolvimento de ideias, tornando essa ferramenta valiosa para projetos futuros.
+
+---
+
+
+
+
+
+
